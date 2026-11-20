@@ -31,7 +31,7 @@ npm install @trustabl/code-execution-agent-reliability-analyzer
 
 Node 20 or later. On first use the package downloads the pinned `trustabl`
 release for your OS and architecture from GitHub Releases, checks it against the
-release's `checksums.txt`, and caches it in `~/.trustabl-code-execution/`. A
+release's `checksums.txt`, and caches it in `~/.trustabl-code-execution/analyzer/`. A
 binary that does not match is never run.
 
 | Variable | Effect |
