@@ -1,0 +1,27 @@
+{
+  "name": "code-execution-agent-reliability-analyzer",
+  "owner": {
+    "name": "Trustabl",
+    "url": "https://github.com/trustabl"
+  },
+  "metadata": {
+    "description": "Trustabl Agent Reliability Analyzer by code execution: agents write a short script against the analyzer and report only what the user asked for."
+  },
+  "plugins": [
+    {
+      "name": "code-execution-agent-reliability-analyzer",
+      "source": "./plugin",
+      "description": "Scan AI-agent code for reliability and safety gaps by writing and running a short script with the Trustabl Agent Reliability Analyzer, so only the findings you ask for reach the conversation. Runs locally; no API key needed.",
+      "homepage": "https://github.com/trustabl/code-execution-agent-reliability-analyzer",
+      "license": "Apache-2.0",
+      "category": "development",
+      "keywords": [
+        "code-execution",
+        "agents",
+        "reliability",
+        "static-analysis",
+        "agent-sdk"
+      ]
+    }
+  ]
+}
